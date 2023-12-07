@@ -1,0 +1,35 @@
+flatMap() 
+
+const object = {
+    firstKey: [
+        {
+            innerKey1: 'value1',
+            innerKey2: [
+                {
+                    key1: 'val1', 
+                    key2: 'val2'
+                },
+                {
+                    key1: 'val3', 
+                    key2: 'val4'
+                },
+                {
+                    key1: 'val5', 
+                    key2: 'val6'
+                }
+                
+            ]
+
+        }
+    ]
+}
+
+before we get into flatMap() function, we can compare map() how it approaches an array element.
+map function iterates over an array and can transform each elemect inside the array and it returns an array.Card
+flatMap() function also does all the same work however after after applying a given callback function to each element of the array,
+THEN it flattens the result by one level. 
+It doesn't flattens the array by one level before applying a given callback function.
+
+If the case that needs flatten by one lever before applying a given callback function,
+
+
